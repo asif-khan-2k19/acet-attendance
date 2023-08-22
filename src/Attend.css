@@ -1,0 +1,76 @@
+.login-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.content{
+    /* transform: translate(0, -100px); */
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#logo{
+    width: 150px;
+}
+.login-page #copyright{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 10px;
+}
+#main-page {
+    display: none;
+}
+
+td input {
+    scale: 1.4;
+}
+
+.input {
+    --input-focus: #000000;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+    width: 250px;
+    height: 45px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 12px;
+    outline: none;
+    scale: 1.2;
+
+}
+
+.input::placeholder {
+    color: var(--font-color-sub);
+    opacity: 0.8;
+}
+
+.input:focus {
+    border: 2px solid var(--input-focus);
+}
+
+/* button */
+.button {
+    position: relative;
+    width: 300px;
+    height: 45px;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    background-color: #7d2ae8;
+}
